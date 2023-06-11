@@ -1,0 +1,8 @@
+.mainmenu {
+  background-color: var(--primary-color)!important;
+}
+
+.brandlogo {
+  width: 50%;
+  height: 50%;
+}

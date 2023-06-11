@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import brandLogo from '../../src/assets/images/21.png';
+import '../index.css';
+import "../styles/MainMenu.css";
+
 const MainMenu = () => {
   return ( 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="p-3">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="mainmenu">
     <Container>
-      <Navbar.Brand>Laszlo Somogyi</Navbar.Brand>
+      <Navbar.Brand><img src={ brandLogo } alt="21" className="brandlogo"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
