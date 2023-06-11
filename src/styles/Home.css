@@ -1,0 +1,12 @@
+.Home {
+  background-color: var(--secondary-color)!important;
+}
+
+.home--bg {
+  background-color: var(--primary-color)!important;
+}
+
+.home__img--size {
+  width: 25%;
+  height: 25%;
+}

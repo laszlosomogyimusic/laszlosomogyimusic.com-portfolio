@@ -6,8 +6,10 @@
   --malachite: #73db6aff;
   --kelly-green: #3ec030ff;
 
-  --primary-color: var(--chamoisee);
-  --secondary-color: var(--light-green);
+  --primary-color: var(--kelly-green);
+  --secondary-color: var(--ecru);
+
+
 
 }
 
