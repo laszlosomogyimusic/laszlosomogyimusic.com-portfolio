@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import brandLogo from 'assets/images/21.png';
-import '../index.css';
+//import 'index.css';
 import "styles/MainMenu.css";
 
 const MainMenu = () => {
@@ -15,31 +15,18 @@ const MainMenu = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link>
-            {' '}
-            <Link className="text-decoration-none text-white" to="/">
-              Home
-            </Link>
-          </Nav.Link>
-          <Nav.Link>
-            {' '}
-            <Link className="text-decoration-none text-white" to="/about">
-              About
-            </Link>
-          </Nav.Link>
-          <Nav.Link>
-            {' '}
-            <Link className="text-decoration-none text-white" to="/music">
-              Music
-            </Link>
-          </Nav.Link>
-          <Nav.Link>
-            {' '}
-            <Link className="text-decoration-none text-white" to="/projects">
-              Project
-            </Link>
-          </Nav.Link>
-
+          <Link className="nav-link me-auto text-decoration-none text-white" to="/">
+            Home
+          </Link>
+          <Link className="nav-link text-decoration-none text-white" to="/about">
+            About
+          </Link>
+          <Link className="nav-link text-decoration-none text-white" to="/music">
+            Music
+          </Link>
+          <Link className="nav-link text-decoration-none text-white" to="/projects">
+            Project
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

@@ -1,14 +1,16 @@
-import bassGuitarImg from 'assets/images/hero-bg.jpg';
 import "styles/Home.css";
 
 const Home = () => {
   return ( 
-    <div className="Home">
-      <p>
-        Hi there. I'm Laszlo Somogyi. Front end web developer and musician.
-        <img src={ bassGuitarImg } alt="bass guitar" className="home__img--size" />
-      </p>
+    <div className="jumbotron">
+    <div className="container">
+      <div className="row d-flex justify-content-center align-items-end">
+        <div className="col-lg-12 align-self-end">
+          <h1 className="display-4">Hi. I'm Laszlo and I'm a front end web developer and<br/>musician</h1>
+        </div>
+      </div>
     </div>
+  </div>
    );
 }
  
