@@ -1,6 +1,5 @@
 {
   "name": "laszlosomogyimusic-portfolio",
-  "homepage": "https://laszlosomogyimusic.github.io/laszlosomogyimusic-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
