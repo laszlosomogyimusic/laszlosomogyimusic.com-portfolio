@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
           <p className="card-text">{project.description}</p>
         </div>
         <div className="card-footer">
-          <a href="https://www.youtube.com/watch?v=hdJIyVb4DvI" target="_blank" rel="noreferrer" className="btn btn-success stretched-link">Find Out More!</a>
+          <a href={project.link} className="btn btn-success stretched-link">Find Out More!</a>
         </div>
       </div>
     </div>   

@@ -9,6 +9,8 @@
   --primary-color: var(--kelly-green);
   --secondary-color: var(--ecru);
   --tetriary-color: var(--chamoisee);
+  --quaternary-color: var(--malachite);
+  --quinary-color: var(--lemon-chiffon);
 }
 
 body {
