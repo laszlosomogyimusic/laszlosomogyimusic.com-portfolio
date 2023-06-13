@@ -3,8 +3,7 @@
 This is the final assignment in the Bootcamp. It is a portfolio website based on React JS.
 
 ## Live URL
-
-https://6488733d2c4e1502dbda0dcc--laszlosomogyimusic.netlify.app/
+https://laszlosomogyimusic.github.io/laszlosomogyimusic-portfolio/
 
 ## Mockup
 
