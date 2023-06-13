@@ -35,15 +35,17 @@ const ElementCard = ({ experience }) => {
 
 const AboutMe = () => {
   return ( 
-<VerticalTimeline className="AboutMe">
-  {experiences.map((experience, index) => (
-    <ElementCard
-      key={`experience-${index}`}
-      experience={experience}
-    />
-  ))}
-   
-</VerticalTimeline>
+    <div className="AboutMe">
+      <VerticalTimeline>
+        {experiences.map((experience, index) => (
+          <ElementCard
+            key={`experience-${index}`}
+            experience={experience}
+          />
+        ))}
+        
+      </VerticalTimeline>
+    </div>
    );
 }
  
