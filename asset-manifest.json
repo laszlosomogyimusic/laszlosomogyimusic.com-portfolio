@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/laszlosomogyimusic-portfolio/static/css/main.bbcfc2ed.css",
+    "main.js": "/laszlosomogyimusic-portfolio/static/js/main.169339f3.js",
+    "static/js/787.6067e60e.chunk.js": "/laszlosomogyimusic-portfolio/static/js/787.6067e60e.chunk.js",
+    "static/media/hero-bg.jpg": "/laszlosomogyimusic-portfolio/static/media/hero-bg.11775380bb15f4cafdbb.jpg",
+    "static/media/21.png": "/laszlosomogyimusic-portfolio/static/media/21.2f2cc6530e732da4481c.png",
+    "index.html": "/laszlosomogyimusic-portfolio/index.html",
+    "main.bbcfc2ed.css.map": "/laszlosomogyimusic-portfolio/static/css/main.bbcfc2ed.css.map",
+    "main.169339f3.js.map": "/laszlosomogyimusic-portfolio/static/js/main.169339f3.js.map",
+    "787.6067e60e.chunk.js.map": "/laszlosomogyimusic-portfolio/static/js/787.6067e60e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbcfc2ed.css",
+    "static/js/main.169339f3.js"
+  ]
+}
