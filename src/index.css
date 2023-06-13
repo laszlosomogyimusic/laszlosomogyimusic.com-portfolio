@@ -1,3 +1,18 @@
+:root {
+  --chamoisee: #997646ff;
+  --ecru: #caac75ff;
+  --lemon-chiffon: #fefac1ff;
+  --light-green: #a5ee9dff;
+  --malachite: #73db6aff;
+  --kelly-green: #3ec030ff;
+
+  --primary-color: var(--kelly-green);
+  --secondary-color: var(--ecru);
+  --tetriary-color: var(--chamoisee);
+  --quaternary-color: var(--malachite);
+  --quinary-color: var(--lemon-chiffon);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +26,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
