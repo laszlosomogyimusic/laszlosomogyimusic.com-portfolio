@@ -19,13 +19,13 @@ const MainMenu = () => {
             Home
           </Link>
           <Link className="nav-link text-decoration-none text-white" to="/about">
-            About
-          </Link>
-          <Link className="nav-link text-decoration-none text-white" to="/music">
-            Music
+            About Me
           </Link>
           <Link className="nav-link text-decoration-none text-white" to="/projects">
-            Project
+            Projects
+          </Link>
+          <Link className="nav-link text-decoration-none text-white" to="/contact">
+            Contact
           </Link>
         </Nav>
       </Navbar.Collapse>
