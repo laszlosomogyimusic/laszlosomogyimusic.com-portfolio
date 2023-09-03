@@ -18,6 +18,12 @@ export const Container = styled.div`
   }
 `;
 
+export const Img = styled.img`
+  width: 4rem;
+  height: 3rem;
+  overflow: hidden;
+`
+
 export const Span = styled.span`
   font-size: 2rem;
 `;

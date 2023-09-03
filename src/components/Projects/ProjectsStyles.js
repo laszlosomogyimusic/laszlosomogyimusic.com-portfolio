@@ -5,6 +5,10 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width:100%;
+    height:30%;
+  }    
 `
 
 export const GridContainer = styled.section`

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Spice of Dune',
-    description: "Spice of Dune is a modern responsive React app based on Frank Herbert's Dune novels.",
+    description: "Spice of Dune is taking you to an alternative universe, which is based on Frank Herbert's masterpiece - Dune. In this website you can see a marketing picth about the benefits of the spice and a bit of blog posts about Planet Arrakis",
       image: '/images/1.png',
       tags: ['React', 'JavaScript'],
     source: 'https://github.com/laszlosomogyimusic/SpiceOfDune/',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'LSM Records',
-    description:"LSM Records is a modern responsive React app, built for a studio.",
+    description:"LSM Records is a music studio website, where the user can see the services, music awards and a video. The visitor can also browse a curated gallery based on the Instagram profile. In the next phase a booking system will be implemented.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/laszlosomogyimusic/lsm-studio/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'HooBank',
-    description: "HooBank is a modern responsive React app, using TailwindCSS",
+    description: "HooBank is a next generation bank solving the challenges in our modern society. Their team of experts uses a methodology to identify the credit cards most likely to fit the customer's needs. They examine annual percentage rates, annual fees.",
       image: '/images/3.png',
       tags: ['React', 'TailwindCSS'],
     source: 'https://github.com/laszlosomogyimusic/hoobank/',
